@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-const {describe} = require ( 'fava' );
-const {makeTimeoutYielder} = require ( '../dist' );
+import {describe} from 'fava';
+import {makeTimeoutYielder} from '../dist/index.js';
 
 /* MAIN */
 

@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import {makeTimeoutYielder} from './yielders';
+import makeTimeoutYielder from './timeout';
 
 /* EXPORT */
 

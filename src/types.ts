@@ -1,8 +1,8 @@
 
 /* MAIN */
 
-type Yielder = () => void | Promise<void>;
+type Yielder = () => Promise<void> | void;
 
 /* EXPORT */
 
-export {Yielder};
+export type {Yielder};

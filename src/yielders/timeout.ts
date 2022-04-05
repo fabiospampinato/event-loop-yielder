@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-import {yieldNow} from './utils';
-import {Yielder} from './types';
+import {yieldNow} from '../utils';
+import type {Yielder} from '../types';
 
 /* MAIN */
 
