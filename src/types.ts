@@ -1,8 +1,10 @@
 
 /* MAIN */
 
+type Callback = () => void;
+
 type Yielder = () => Promise<void> | void;
 
 /* EXPORT */
 
-export type {Yielder};
+export type {Callback, Yielder};

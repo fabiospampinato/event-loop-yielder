@@ -1,8 +1,10 @@
 
 /* IMPORT */
 
-import makeTimeoutYielder from './timeout';
+import makeImmediateYielder from '~/yielders/immediate';
+import makeIntervalYielder from '~/yielders/interval';
+import makeTimeoutYielder from '~/yielders/timeout';
 
 /* EXPORT */
 
-export {makeTimeoutYielder};
+export {makeImmediateYielder, makeIntervalYielder, makeTimeoutYielder};

@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-import {makeTimeoutYielder} from './yielders';
+import {makeImmediateYielder, makeIntervalYielder, makeTimeoutYielder} from '~/yielders';
 
 /* EXPORT */
 
-export {makeTimeoutYielder};
+export {makeImmediateYielder, makeIntervalYielder, makeTimeoutYielder};

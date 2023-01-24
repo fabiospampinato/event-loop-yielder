@@ -1,28 +1,19 @@
 
 /* IMPORT */
 
-import {yieldNow} from '../utils';
-import type {Yielder} from '../types';
+import type {Yielder} from '~/types';
 
 /* MAIN */
 
-const makeTimeoutYielder = ( timeout: number ): Yielder => {
-
-  let start = 0;
+const makeTimeoutYielder = (): Yielder => {
 
   return () => {
 
-    const now = Date.now ();
+    return new Promise ( resolve => {
 
-    start = start || now;
+      setTimeout ( resolve, 0 );
 
-    const elapsed = now - start;
-
-    if ( elapsed < timeout ) return;
-
-    start = 0;
-
-    return yieldNow ();
+    });
 
   };
 
