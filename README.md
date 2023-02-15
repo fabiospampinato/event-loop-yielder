@@ -10,7 +10,7 @@ npm install --save event-loop-yielder
 
 ## Usage
 
-The following functions will each make a different kind of yielder, you just call it and await its result, the yielder will decide on its own wether to actually yield to the event loop or not.
+The following functions will each make a different kind of yielder, you just call it and await its result, the yielder will decide on its own whether to actually yield to the event loop or not.
 
 ### `makeImmediateYielder`
 
