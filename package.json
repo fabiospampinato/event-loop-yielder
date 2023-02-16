@@ -2,7 +2,7 @@
   "name": "event-loop-yielder",
   "repository": "github:fabiospampinato/event-loop-yielder",
   "description": "A collection of strategies for yielding to the event loop, to avoid blocking for too long.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
