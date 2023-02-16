@@ -23,6 +23,9 @@
     "thread",
     "scheduling"
   ],
+  "dependencies": {
+    "immediato": "^1.0.0"
+  },
   "devDependencies": {
     "fava": "^0.2.0",
     "tsex": "^2.2.0",

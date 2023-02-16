@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import {setImmediate} from '~/immediate';
+import {setImmediate} from 'immediato';
 import type {Yielder} from '~/types';
 
 /* MAIN */
