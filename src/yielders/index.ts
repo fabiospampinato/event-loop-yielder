@@ -1,9 +1,9 @@
 
 /* IMPORT */
 
-import makeImmediateYielder from '~/yielders/immediate';
-import makeIntervalYielder from '~/yielders/interval';
-import makeTimeoutYielder from '~/yielders/timeout';
+import makeImmediateYielder from './immediate';
+import makeIntervalYielder from './interval';
+import makeTimeoutYielder from './timeout';
 
 /* EXPORT */
 

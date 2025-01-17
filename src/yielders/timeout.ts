@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import type {Yielder} from '~/types';
+import type {Yielder} from '../types';
 
 /* MAIN */
 
