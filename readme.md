@@ -5,7 +5,7 @@ A collection of strategies for yielding to the event loop, to avoid blocking for
 ## Install
 
 ```sh
-npm install --save event-loop-yielder
+npm install event-loop-yielder
 ```
 
 ## Usage
